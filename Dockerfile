@@ -2,7 +2,7 @@
 FROM node:current-slim
 
 # Set the working directory.
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Copy the file from your host to your current location.
 COPY package.json .
